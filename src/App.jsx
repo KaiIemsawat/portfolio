@@ -3,6 +3,9 @@ import { useState } from "react";
 import Sidenav from "./components/Sidenav";
 import Main from "./components/main";
 import Work from "./components/Work";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -12,6 +15,9 @@ function App() {
             <Sidenav />
             <Main />
             <Work />
+            <Projects />
+            <Resume />
+            <Contact />
         </div>
     );
 }
