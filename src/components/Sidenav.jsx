@@ -50,7 +50,7 @@ const Sidenav = () => {
                         <span className="pl-4">Resume</span>
                     </a>
                     <a
-                        href="#contect"
+                        href="#contact"
                         onClick={handleNav}
                         className="w-[75%] flex justify-center items-center rounded-full  bg-cus-gray/30  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
                         <IconContacts className="text-xl" />

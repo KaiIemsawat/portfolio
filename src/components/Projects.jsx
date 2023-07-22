@@ -19,8 +19,12 @@ const Projects = () => {
                 sapien. Suspendisse ultricies rutrum felis nec lobortis.
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
-                <ProjectItem img={trailssImg} title="Tra!ls App" />
-                <ProjectItem img={plutoImg} title="Pluto TV" />
+                <ProjectItem img={trailssImg} title="Tra!ls App" tools="MERN" />
+                <ProjectItem
+                    img={plutoImg}
+                    title="Pluto TV"
+                    tools="Java, Selenium, SQL"
+                />
             </div>
         </div>
     );
