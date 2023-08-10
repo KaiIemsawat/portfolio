@@ -55,7 +55,7 @@ const Main = () => {
                                 // Same substring at the start will only be typed out once, initially
                                 "full stack developer",
                                 2000, // wait 2s before replacing "Mice" with "Hamsters"
-                                "software development in test",
+                                "software development engineer in test",
                                 2000,
                                 "problem solver",
                                 2000,
@@ -77,7 +77,7 @@ const Main = () => {
                     <div className="flex justify-between pt-2 max-w-[180px] w-full">
                         <IconSquareGithub className="text-xl text-cus-gray/70 cursor-pointer" />
                         <IconLinkedin className="text-xl text-cus-gray/70 cursor-pointer" />
-                        <IconFacebook className="text-xl text-cus-gray/70 cursor-pointer" />
+                        {/* <IconFacebook className="text-xl text-cus-gray/70 cursor-pointer" /> */}
                         <IconInstagram className="text-xl text-cus-gray/70 cursor-pointer" />
                     </div>
                 </div>
