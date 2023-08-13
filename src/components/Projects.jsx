@@ -4,12 +4,13 @@ import trailssImg from "../assets/images/trailssScreen.png";
 import plutoImg from "../assets/images/plutoScreen.png";
 import calculatorImg from "../assets/images/calculator.png";
 import notesImg from "../assets/images/notes.png";
+import portfolioImg from "../assets/images/portfolio.png";
 
 const Projects = () => {
     return (
         <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
             <h1 className="text-4xl font-bold text-center text-[#02284f]">
-                Project
+                Projects
             </h1>
             <p className="text-center py-8">
                 Aliquam auctor, urna sed ullamcorper rhoncus, arcu felis mollis
@@ -20,7 +21,7 @@ const Projects = () => {
                 vel luctus vel, scelerisque sit amet orci. Mauris a mauris
                 sapien. Suspendisse ultricies rutrum felis nec lobortis.
             </p>
-            <div className="grid sm:grid-cols-2 gap-12">
+            <div className="grid lg:grid-cols-2 gap-12">
                 <ProjectItem
                     img={trailssImg}
                     title="Tra!ls App"
@@ -28,13 +29,12 @@ const Projects = () => {
                     link="http://54.174.238.243/"
                     description="Full stack MERN with JS. Styling on TailwindCSS and deployed on AWS EC2"
                 />
-
                 <ProjectItem
                     img={calculatorImg}
                     title="Calculator"
                     tools="JS, React"
                     link="http://3.95.202.50/"
-                    description="Created with react and css "
+                    description="Created with react and css. This app is deployed on AWS EC2"
                 />
                 <ProjectItem
                     img={notesImg}
@@ -43,6 +43,13 @@ const Projects = () => {
                     link="http://54.89.66.246/"
                     description="This is an individual project using TS with Mern and
                     deployed on AWS EC2"
+                />
+                <ProjectItem
+                    img={portfolioImg}
+                    title="portfolio"
+                    tools="JS, react, TailwindCSS"
+                    link="https://kai-portfolio.tech/"
+                    description="This is a personal portfolio project that contains links to my other works, my sumary, and visitors may contact me. This project is deployed on https://www.hostinger.com/"
                 />
                 <ProjectItem
                     img={plutoImg}

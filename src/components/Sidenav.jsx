@@ -5,6 +5,7 @@ import IconBxGitBranch from "../assets/icons/IconBxGitBranch";
 import IconDocumentText from "../assets/icons/IconDoc";
 import IconProject from "../assets/icons/IconProject16";
 import IconContacts from "../assets/icons/IconContact";
+import IconInfo from "../assets/icons/IconInfo";
 
 const Sidenav = () => {
     const [nav, setNav] = useState(false);
@@ -27,6 +28,13 @@ const Sidenav = () => {
                         className="w-[75%] flex justify-center items-center rounded-full  bg-cus-gray/30  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
                         <IconHome className="text-xl" />
                         <span className="pl-4">Home</span>
+                    </a>
+                    <a
+                        href="#about"
+                        onClick={handleNav}
+                        className="w-[75%] flex justify-center items-center rounded-full  bg-cus-gray/30  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
+                        <IconInfo className="text-xl" />
+                        <span className="pl-4">About Me</span>
                     </a>
                     <a
                         href="#work"
@@ -61,12 +69,17 @@ const Sidenav = () => {
                 ""
             )}
 
-            <div className="md:block hidden fixed top-[25%] z-10">
+            <div className="md:block hidden fixed top-[30%] z-10">
                 <div className="flex flex-col">
                     <a
                         href="#main"
                         className="rounded-full bg-cus-gray/50  shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 hover:shadow-xl hover:shadow-slate-400/20">
                         <IconHome className="text-xl" />
+                    </a>
+                    <a
+                        href="#about"
+                        className="rounded-full bg-cus-gray/50  shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 hover:shadow-xl hover:shadow-slate-400/20">
+                        <IconInfo className="text-xl" />
                     </a>
                     <a
                         href="#work"

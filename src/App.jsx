@@ -5,7 +5,9 @@ import Main from "./components/main";
 import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+
 import Resume from "./components/Resume";
+import AboutMe from "./components/aboutMe";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -14,6 +16,7 @@ function App() {
         <div>
             <Sidenav />
             <Main />
+            <AboutMe />
             <Work />
             <Projects />
             {/* <Resume /> */}
