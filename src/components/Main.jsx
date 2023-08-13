@@ -78,7 +78,7 @@ const Main = () => {
                         <IconSquareGithub className="text-xl text-cus-gray/70 cursor-pointer" />
                         <IconLinkedin className="text-xl text-cus-gray/70 cursor-pointer" />
                         {/* <IconFacebook className="text-xl text-cus-gray/70 cursor-pointer" /> */}
-                        <IconInstagram className="text-xl text-cus-gray/70 cursor-pointer" />
+                        {/* <IconInstagram className="text-xl text-cus-gray/70 cursor-pointer" /> */}
                     </div>
                 </div>
             </div>
