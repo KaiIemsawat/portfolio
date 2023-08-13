@@ -4,26 +4,26 @@ import WorkItem from "./subcomponents/WorkItem";
 
 const workData = [
     {
-        year: 2022,
-        title: "Test Engineer",
-        duration: "1 year",
+        year: "Feb 2022 - current",
+        title: "Data Test Engineer",
+        location: "PlutoTV",
         details:
             "I am an experienced Full Stack Software Engineer and Software Development Engineer in Testing with a thirst for knowledge and a commitment to delivering cutting-edge solutions. I am eager to contribute my skills and passion to your esteemed organization's success.",
     },
     {
-        year: 2022,
+        year: "Apr 2017 - Feb 2022",
         title: "Test Engineer",
-        duration: "1 year",
+        // duration: "1 year",
         details:
             "I am an experienced Full Stack Software Engineer and Software Development Engineer in Testing with a thirst for knowledge and a commitment to delivering cutting-edge solutions. I am eager to contribute my skills and passion to your esteemed organization's success.",
     },
-    {
-        year: 2022,
-        title: "Test Engineer",
-        duration: "1 year",
-        details:
-            "I am an experienced Full Stack Software Engineer and Software Development Engineer in Testing with a thirst for knowledge and a commitment to delivering cutting-edge solutions. I am eager to contribute my skills and passion to your esteemed organization's success.",
-    },
+    // {
+    //     year: 2022,
+    //     title: "Test Engineer",
+    //     // duration: "1 year",
+    //     details:
+    //         "I am an experienced Full Stack Software Engineer and Software Development Engineer in Testing with a thirst for knowledge and a commitment to delivering cutting-edge solutions. I am eager to contribute my skills and passion to your esteemed organization's success.",
+    // },
 ];
 const Work = () => {
     return (
@@ -36,7 +36,7 @@ const Work = () => {
                     key={idx}
                     year={eaWork.year}
                     title={eaWork.title}
-                    duration={eaWork.duration}
+                    location={eaWork.location}
                     details={eaWork.details}
                 />
             ))}
