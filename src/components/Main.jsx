@@ -74,9 +74,17 @@ const Main = () => {
                             repeat={Infinity}
                         />
                     </h2>
-                    <div className="flex justify-between pt-2 max-w-[180px] w-full">
-                        <IconSquareGithub className="text-xl text-cus-gray/70 cursor-pointer" />
-                        <IconLinkedin className="text-xl text-cus-gray/70 cursor-pointer" />
+                    <div className="flex justify-between pt-2 max-w-[64px] w-full">
+                        <a
+                            href="https://github.com/KaiIemsawat"
+                            target="_blank">
+                            <IconSquareGithub className="text-xl text-cus-gray/70 cursor-pointer" />
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/kaiiemsawat/"
+                            target="_blank">
+                            <IconLinkedin className="text-xl text-cus-gray/70 cursor-pointer" />
+                        </a>
                         {/* <IconFacebook className="text-xl text-cus-gray/70 cursor-pointer" /> */}
                         {/* <IconInstagram className="text-xl text-cus-gray/70 cursor-pointer" /> */}
                     </div>

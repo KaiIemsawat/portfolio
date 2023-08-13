@@ -42,13 +42,13 @@ const Sidenav = () => {
                         <IconProject className="text-xl" />
                         <span className="pl-4">Projects</span>
                     </a>
-                    <a
+                    {/* <a
                         href="#resume"
                         onClick={handleNav}
                         className="w-[75%] flex justify-center items-center rounded-full  bg-cus-gray/30  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
                         <IconDocumentText className="text-xl" />
                         <span className="pl-4">Resume</span>
-                    </a>
+                    </a> */}
                     <a
                         href="#contact"
                         onClick={handleNav}
@@ -78,11 +78,11 @@ const Sidenav = () => {
                         className="rounded-full bg-cus-gray/50  shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 hover:shadow-xl hover:shadow-slate-400/20">
                         <IconProject className="text-xl" />
                     </a>
-                    <a
+                    {/* <a
                         href="#resume"
                         className="rounded-full bg-cus-gray/50  shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 hover:shadow-xl hover:shadow-slate-400/20">
                         <IconDocumentText className="text-xl" />
-                    </a>
+                    </a> */}
                     <a
                         href="#contact"
                         className="rounded-full bg-cus-gray/50  shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 hover:shadow-xl hover:shadow-slate-400/20">
