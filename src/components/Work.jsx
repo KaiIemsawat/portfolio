@@ -39,13 +39,10 @@ const mgmDetails = (
         </li>
         <li>
             <span className="text-2xl">&#8226; </span>Demonstrated accuracy in
-            calculations under time-limited situations in various games.
+            calculations handled high-value chips and cash transactions under
+            time-limited situations in various games.
         </li>
-        <li>
-            <span className="text-2xl">&#8226; </span>Carefully handled
-            sensitive and high-value chips and cash transactions between
-            customers and the casino.
-        </li>
+
         <li>
             <span className="text-2xl">&#8226; </span>Effectively coordinated
             with co-workers and supervisors in fast-paced games such as Dice.

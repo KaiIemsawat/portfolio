@@ -38,7 +38,7 @@ const Projects = () => {
                     title="Pluto TV"
                     tools="SQL, TestRail, Jenkins, Manual Testing, Automation"
                     link="https://pluto.tv/en/live-tv/5efbd39f8c4ce900075d7698?utm_source=google&utm_medium=paidsearch&utm_campaign=12080790684&utm_term=pluto+tv&utm_creative=617765758688&device=c&campaign=Search_Brand_Desktop_E&gclid=CjwKCAjw_uGmBhBREiwAeOfsd2DdmXYfP2rGN_oFBRvuMhsW1soJbYXnyKB_i3YApG0DvfRZ_UEpiBoCeagQAvD_BwE"
-                    description="I am currently work here as data test engineer. Ensuring that we are able to collect all of the data from each session accurately"
+                    description="I am currently work here as a data test engineer. Ensuring that we are able to collect all of the data from each session accurately"
                 />
                 <ProjectItem
                     img={portfolioImg}

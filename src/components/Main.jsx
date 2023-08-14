@@ -1,9 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import IconFacebook from "../assets/icons/FacebookIcon";
-import IconLinkedin from "../assets/icons/LinkedInIcon";
 import IconSquareGithub from "../assets/icons/GitHubIcon";
-import IconInstagram from "../assets/icons/InstagramIcon";
+import IconLinkedin from "../assets/icons/LinkedInIcon";
 
 const Main = () => {
     let background = () => {
