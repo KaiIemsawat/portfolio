@@ -5,6 +5,7 @@ import calculatorImg from "../assets/images/calculator.png";
 import notesImg from "../assets/images/notes.png";
 import portfolioImg from "../assets/images/portfolio.png";
 import trailssImg from "../assets/images/trailss.png";
+import recipeRoomImg from "../assets/images/recipeRoom.png";
 
 const Projects = () => {
     return (
@@ -67,6 +68,13 @@ const Projects = () => {
                     tools="TS, MERN, Bootstrap"
                     link="http://54.89.66.246/"
                     description="This is an individual project using TS with Mern and styled with Bootstrap. This application was deployed on AWS EC2"
+                />
+                <ProjectItem
+                    img={recipeRoomImg}
+                    title="Blog App"
+                    tools="JS, MERN"
+                    link="http://44.204.56.114/"
+                    description="This is a full stack MERN. It is styled with plain CSS. This application was deployed on AWS EC2"
                 />
             </div>
         </div>
