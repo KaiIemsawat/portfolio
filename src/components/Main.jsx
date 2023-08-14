@@ -59,6 +59,8 @@ const Main = () => {
                                 2000,
                                 "problem solver",
                                 2000,
+                                "team player",
+                                2000,
                                 "tech enthusiast",
                                 2000,
                                 "photographer",
@@ -85,8 +87,6 @@ const Main = () => {
                             target="_blank">
                             <IconLinkedin className="text-xl text-cus-gray/70 cursor-pointer" />
                         </a>
-                        {/* <IconFacebook className="text-xl text-cus-gray/70 cursor-pointer" /> */}
-                        {/* <IconInstagram className="text-xl text-cus-gray/70 cursor-pointer" /> */}
                     </div>
                 </div>
             </div>

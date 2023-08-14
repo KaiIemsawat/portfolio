@@ -5,7 +5,6 @@ import Main from "./components/main";
 import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-
 import Resume from "./components/Resume";
 import AboutMe from "./components/aboutMe";
 

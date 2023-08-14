@@ -2,25 +2,85 @@ import React from "react";
 import { data } from "autoprefixer";
 import WorkItem from "./subcomponents/WorkItem";
 
+const plutoDetails = (
+    <ul>
+        <li>
+            <span className="text-2xl">&#8226; </span>
+            Analyze business requirement documents to discuss with the team in
+            meetings and create test cases to validate new features accordingly.
+        </li>
+        <li>
+            <span className="text-2xl">&#8226; </span>Maintain existing
+            frameworks using Java, Selenium, TestNG and SQL to ensure efficiency
+            with both new and existing features.
+        </li>
+        <li>
+            <span className="text-2xl">&#8226; </span>Use Jenkins and TestRail
+            as part of the CI/CD environment.
+        </li>
+        <li>
+            <span className="text-2xl">&#8226; </span>Perform automation and
+            manual testing in various platforms and regions.
+        </li>
+        <li>
+            <span className="text-2xl">&#8226; </span>Working in a scrum team
+            and SAFe Agile environment. Also collaborate between teams if
+            needed.
+        </li>
+    </ul>
+);
+
+const mgmDetails = (
+    <ul>
+        <li>
+            <span className="text-2xl">&#8226; </span>Provided exceptional
+            customer service in high-pressure environments, consistently
+            exceeding patrons’ expectations.
+        </li>
+        <li>
+            <span className="text-2xl">&#8226; </span>Demonstrated accuracy in
+            calculations under time-limited situations in various games.
+        </li>
+        <li>
+            <span className="text-2xl">&#8226; </span>Carefully handled
+            sensitive and high-value chips and cash transactions between
+            customers and the casino.
+        </li>
+        <li>
+            <span className="text-2xl">&#8226; </span>Effectively coordinated
+            with co-workers and supervisors in fast-paced games such as Dice.
+        </li>
+        <li>
+            <span className="text-2xl">&#8226; </span>Maintained keen
+            observation of player behavior to detect any potential fraudulent
+            activities.
+        </li>
+        <li>
+            <span className="text-2xl">&#8226; </span>Mentored and supported new
+            dealers, assisting them in skill development and providing
+            additional practice opportunities.
+        </li>
+    </ul>
+);
+
 const workData = [
     {
         year: "Feb 2022 - current",
         title: "Data Test Engineer",
         location: "PlutoTV",
-        details:
-            "I am an experienced Full Stack Software Engineer and Software Development Engineer in Testing with a thirst for knowledge and a commitment to delivering cutting-edge solutions. I am eager to contribute my skills and passion to your esteemed organization's success.",
+        details: plutoDetails,
     },
     {
         year: "Apr 2017 - Feb 2022",
-        title: "Test Engineer",
-        // duration: "1 year",
-        details:
-            "I am an experienced Full Stack Software Engineer and Software Development Engineer in Testing with a thirst for knowledge and a commitment to delivering cutting-edge solutions. I am eager to contribute my skills and passion to your esteemed organization's success.",
+        title: "Table Game Dealer",
+        location: "MGM National Harbor",
+        details: mgmDetails,
     },
     // {
     //     year: 2022,
     //     title: "Test Engineer",
     //     // duration: "1 year",
+
     //     details:
     //         "I am an experienced Full Stack Software Engineer and Software Development Engineer in Testing with a thirst for knowledge and a commitment to delivering cutting-edge solutions. I am eager to contribute my skills and passion to your esteemed organization's success.",
     // },
