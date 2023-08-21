@@ -10,23 +10,23 @@ const Main = () => {
         switch (number) {
             case 1:
                 res =
-                    "https://scontent-iad3-1.xx.fbcdn.net/v/t31.18172-8/11953313_167372866930965_169693247021276797_o.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=WHhIIKOwU9oAX9SpVW6&_nc_ht=scontent-iad3-1.xx&oh=00_AfAo3JYKwK3RWLZODvWL0jP4h6n9NmNd5FX0Z3_qMxCK1Q&oe=64E00E1F";
+                    "https://scontent-iad3-1.xx.fbcdn.net/v/t31.18172-8/11850654_167372260264359_6033841003877855885_o.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=6R5Jh5Tahz0AX-86xx5&_nc_ht=scontent-iad3-1.xx&oh=00_AfDdxAGgxMUdeHXvy2rLGUq7MOISFVwCcXtIjvBBeInrdQ&oe=650B4259";
                 break;
             case 2:
                 res =
-                    "https://scontent-iad3-2.xx.fbcdn.net/v/t31.18172-8/11953403_167372206931031_5206379718578442125_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=CZoLv_VWLTgAX8J5wQ4&_nc_ht=scontent-iad3-2.xx&oh=00_AfBbo4BYWmWEyJoW5QbAnChjsKoBJTBMDxZjOIZPBZ11tQ&oe=64E162F2";
+                    "https://scontent-iad3-2.xx.fbcdn.net/v/t31.18172-8/11935571_168756906792561_5874723257473553058_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=jNAaxo7KHhwAX_cqH_G&_nc_ht=scontent-iad3-2.xx&oh=00_AfCOhzIVAGLCUzRyaL3RZ3ZU8R27rF7DA9ZdMGJEQrZI-Q&oe=650B1364";
                 break;
             case 3:
                 res =
-                    "https://scontent-iad3-1.xx.fbcdn.net/v/t31.18172-8/11882344_167372146931037_4278858618040354107_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=xLWwXdJXsmQAX9vu_Uk&_nc_ht=scontent-iad3-1.xx&oh=00_AfBOiF-goBtzb6HKGDXph13FHqEuF-7W8fQwWhO6bOXCsw&oe=64E166CE";
+                    "https://scontent-iad3-1.xx.fbcdn.net/v/t31.18172-8/11882344_167372146931037_4278858618040354107_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=xT7JXL9aFMcAX_AUp8Y&_nc_ht=scontent-iad3-1.xx&oh=00_AfDH0VCQ_kB1RGsf2fVLXzNM5SaKm3APVr4n1JmgRb2HqQ&oe=650B264E";
                 break;
             case 4:
                 res =
-                    "https://scontent-iad3-1.xx.fbcdn.net/v/t31.18172-8/11953507_167371966931055_7652312498520072164_o.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=9QugIwnh3DIAX-KyRuq&_nc_ht=scontent-iad3-1.xx&oh=00_AfCVzaACSY0Cy_uE6CgYJyvHc-tLeB5kXcRb0GEtdU3WtA&oe=64E16FFE";
+                    "https://scontent-iad3-2.xx.fbcdn.net/v/t31.18172-8/11953403_167372206931031_5206379718578442125_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=Dtg5Tybh4A8AX_W7gO8&_nc_ht=scontent-iad3-2.xx&oh=00_AfCqdqr5u6K3NQjv81fvTX7_HQxxrAV0TpdvxXYU0-bwRA&oe=650B2272";
                 break;
             case 5:
                 res =
-                    "https://scontent-iad3-2.xx.fbcdn.net/v/t31.18172-8/11935571_168756906792561_5874723257473553058_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=7mUC7rGVBfMAX88KbU8&_nc_ht=scontent-iad3-2.xx&oh=00_AfAtVpzYIfPyuP8b795-zVtYgZvNPm50GpSyA0meH35IDg&oe=64E153E4";
+                    "https://scontent-iad3-1.xx.fbcdn.net/v/t31.18172-8/11953313_167372866930965_169693247021276797_o.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=uXlCn68JdzkAX_tMmID&_nc_ht=scontent-iad3-1.xx&oh=00_AfDUfbUKgMo-YwrwdY46elJNqekc7yY7alKwIz3W1jesHw&oe=650B1F1F";
                 break;
             default:
                 console.log("There must be some issue");
@@ -77,12 +77,14 @@ const Main = () => {
                     <div className="flex justify-between pt-2 max-w-[64px] w-full">
                         <a
                             href="https://github.com/KaiIemsawat"
-                            target="_blank">
+                            target="_blank"
+                        >
                             <IconSquareGithub className="text-xl text-cus-gray/70 cursor-pointer" />
                         </a>
                         <a
                             href="https://www.linkedin.com/in/kaiiemsawat/"
-                            target="_blank">
+                            target="_blank"
+                        >
                             <IconLinkedin className="text-xl text-cus-gray/70 cursor-pointer" />
                         </a>
                     </div>

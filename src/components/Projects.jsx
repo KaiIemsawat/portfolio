@@ -6,6 +6,7 @@ import notesImg from "../assets/images/notes.png";
 import portfolioImg from "../assets/images/portfolio.png";
 import trailssImg from "../assets/images/trailss.png";
 import recipeRoomImg from "../assets/images/recipeRoom.png";
+import marketplaceImg from "../assets/images/marketplace.png";
 
 const Projects = () => {
     return (
@@ -75,6 +76,13 @@ const Projects = () => {
                     tools="JS, MERN"
                     link="http://44.204.56.114/"
                     description="This is a full stack MERN. It is styled with plain CSS. This application was deployed on AWS EC2"
+                />
+                <ProjectItem
+                    img={marketplaceImg}
+                    title="e-commerce app"
+                    tools="TypeScript, NextJS, MongoDB"
+                    link="https://nextjs-ts-ecommerce-kaiiemsawat.vercel.app/"
+                    description="This application allows user to browse and seearch for the items they would like to see. Deployed on Vercel"
                 />
             </div>
         </div>

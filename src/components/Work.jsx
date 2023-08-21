@@ -73,14 +73,6 @@ const workData = [
         location: "MGM National Harbor",
         details: mgmDetails,
     },
-    // {
-    //     year: 2022,
-    //     title: "Test Engineer",
-    //     // duration: "1 year",
-
-    //     details:
-    //         "I am an experienced Full Stack Software Engineer and Software Development Engineer in Testing with a thirst for knowledge and a commitment to delivering cutting-edge solutions. I am eager to contribute my skills and passion to your esteemed organization's success.",
-    // },
 ];
 const Work = () => {
     return (
