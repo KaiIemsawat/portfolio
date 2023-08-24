@@ -23,20 +23,20 @@ const Main = () => {
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
                                 " a... full stack developer",
-                                2000, // wait 2s before replacing "Mice" with "Hamsters"
+                                2500, // wait 2s before replacing "Mice" with "Hamsters"
                                 " an... SDET",
-                                2000,
+                                2500,
                                 " a... problem solver",
-                                2000,
+                                2500,
                                 " a... team player",
-                                2000,
+                                2500,
                                 " a... tech enthusiast",
-                                2000,
+                                2500,
                                 " a... photographer",
-                                2000,
+                                2500,
                             ]}
                             wrapper="span"
-                            speed={50}
+                            speed={5.5}
                             style={{
                                 fontSize: "1em",
                                 display: "inline-block",
@@ -50,13 +50,13 @@ const Main = () => {
                             href="https://github.com/KaiIemsawat"
                             target="_blank"
                         >
-                            <IconSquareGithub className="text-xl text-cus-gray/70 cursor-pointer" />
+                            <IconSquareGithub className="text-2xl text-cus-gray/70 cursor-pointer hover:scale-150 ease-in duration-200 hover:shadow-xl hover:shadow-slate-400/20" />
                         </a>
                         <a
                             href="https://www.linkedin.com/in/kaiiemsawat/"
                             target="_blank"
                         >
-                            <IconLinkedin className="text-xl text-cus-gray/70 cursor-pointer" />
+                            <IconLinkedin className="text-2xl text-cus-gray/70 cursor-pointer hover:scale-150 ease-in duration-200 hover:shadow-xl hover:shadow-slate-400/20" />
                         </a>
                     </div>
                 </div>
