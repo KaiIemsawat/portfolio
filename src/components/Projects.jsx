@@ -7,6 +7,7 @@ import portfolioImg from "../assets/images/portfolio.png";
 import trailssImg from "../assets/images/trailss.png";
 import recipeRoomImg from "../assets/images/recipeRoom.png";
 import marketplaceImg from "../assets/images/marketplace.png";
+import estate01 from "../assets/images/estate-01.png";
 
 const Projects = () => {
     return (
@@ -35,13 +36,13 @@ const Projects = () => {
                 undertake."
             </p>
             <div className="grid lg:grid-cols-2 gap-12">
-                <ProjectItem
+                {/* <ProjectItem
                     img={plutoImg}
                     title="Pluto TV"
                     tools="SQL, TestRail, Jenkins, Manual Testing, Automation"
                     link="https://pluto.tv/en/live-tv/5efbd39f8c4ce900075d7698?utm_source=google&utm_medium=paidsearch&utm_campaign=12080790684&utm_term=pluto+tv&utm_creative=617765758688&device=c&campaign=Search_Brand_Desktop_E&gclid=CjwKCAjw_uGmBhBREiwAeOfsd2DdmXYfP2rGN_oFBRvuMhsW1soJbYXnyKB_i3YApG0DvfRZ_UEpiBoCeagQAvD_BwE"
                     description="I am currently work here as a data test engineer. Ensuring that we are able to collect all of the data from each session accurately"
-                />
+                /> */}
                 <ProjectItem
                     img={portfolioImg}
                     title="portfolio"
@@ -83,6 +84,13 @@ const Projects = () => {
                     tools="TypeScript, NextJS, MongoDB"
                     link="https://nextjs-ts-ecommerce-kaiiemsawat.vercel.app/"
                     description="This application allows user to browse and seearch for the items they would like to see. Deployed on Vercel"
+                />
+                <ProjectItem
+                    img={estate01}
+                    title="Estate"
+                    tools="MERN, Redux, TailwindCSS"
+                    link="https://mern-estate-069k.onrender.com/"
+                    description="This as a demo for real estate web application. User may login with their info or using Google OAuth"
                 />
             </div>
         </div>
