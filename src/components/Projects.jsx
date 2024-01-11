@@ -54,28 +54,28 @@ const Projects = () => {
                     img={calculatorImg}
                     title="Calculator"
                     tools="JS, React"
-                    link="http://3.95.202.50/"
+                    link="https://github.com/KaiIemsawat/reactCalculator"
                     description="Created with react and css. This application was deployed on AWS EC2"
                 />
                 <ProjectItem
                     img={trailssImg}
                     title="Tra!ls App"
                     tools="MERN, TailwindCSS"
-                    link="http://54.174.238.243/"
+                    link="https://github.com/KaiIemsawat/trailss"
                     description="Full stack MERN with JS. Styled with TailwindCSS. This application was deployed on AWS EC2"
                 />
                 <ProjectItem
                     img={notesImg}
                     title="notes app"
                     tools="TS, MERN, Bootstrap"
-                    link="http://54.89.66.246/"
+                    link="https://github.com/KaiIemsawat/ts-notes-app"
                     description="This is an individual project using TS with Mern and styled with Bootstrap. This application was deployed on AWS EC2"
                 />
                 <ProjectItem
                     img={recipeRoomImg}
                     title="Blog App"
                     tools="JS, MERN"
-                    link="http://44.204.56.114/"
+                    link="https://github.com/KaiIemsawat/recipe-blog"
                     description="This is a full stack MERN. It is styled with plain CSS. This application was deployed on AWS EC2"
                 />
                 <ProjectItem
