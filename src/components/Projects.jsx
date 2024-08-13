@@ -8,6 +8,7 @@ import trailssImg from "../assets/images/trailss.png";
 import recipeRoomImg from "../assets/images/recipeRoom.png";
 import marketplaceImg from "../assets/images/marketplace.png";
 import estate01 from "../assets/images/estate-01.png";
+import expenseTracker01 from "../assets/images/expenseTracker.png";
 
 const Projects = () => {
     return (
@@ -91,6 +92,13 @@ const Projects = () => {
                     tools="MERN, Redux, TailwindCSS"
                     link="https://mern-estate-069k.onrender.com/"
                     description="This as a demo for real estate web application. User may login with their info or using Google OAuth"
+                />
+                <ProjectItem
+                    img={expenseTracker01}
+                    title="Expense Tracker"
+                    tools="MERN, GraphQL, TailwindCSS"
+                    link="https://gql-mern-expensetracker.onrender.com/"
+                    description="This is a practice project focusing on creating a graph that will update based on user inputs"
                 />
             </div>
         </div>
