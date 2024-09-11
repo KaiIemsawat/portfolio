@@ -6,26 +6,49 @@ const plutoDetails = (
     <ul>
         <li>
             <span className="text-2xl">&#8226; </span>
-            Analyze business requirement documents to discuss with the team in
-            meetings and create test cases to validate new features accordingly.
+            Collaborate with cross-functional teams to analyze requirements and
+            design test cases to ensure the quality of new and existing
+            features.
         </li>
         <li>
-            <span className="text-2xl">&#8226; </span>Maintain existing
-            frameworks using Java, Selenium, TestNG and SQL to ensure efficiency
-            with both new and existing features.
+            <span className="text-2xl">&#8226; </span>Maintain and enhance test
+            automation frameworks using Java, Selenium, TestNG, and SQL,
+            increasing testing efficiency.
         </li>
         <li>
-            <span className="text-2xl">&#8226; </span>Use Jenkins and TestRail
-            as part of the CI/CD environment.
+            <span className="text-2xl">&#8226; </span>Develop UI automation
+            frameworks to validate expected behavior across multiple TV
+            platforms.
         </li>
         <li>
-            <span className="text-2xl">&#8226; </span>Perform automation and
-            manual testing in various platforms and regions.
+            <span className="text-2xl">&#8226; </span>Conduct both manual and
+            automated testing across various platforms, supporting the CI/CD
+            pipeline through tools like Jenkins and TestRail.
         </li>
         <li>
-            <span className="text-2xl">&#8226; </span>Working in a scrum team
-            and SAFe Agile environment. Also collaborate between teams if
-            needed.
+            <span className="text-2xl">&#8226; </span>Proactively learn and
+            integrate new tools and methodologies, driving improvements in
+            testing practices and product quality.
+        </li>
+        <li>
+            <span className="text-2xl">&#8226; </span>Investigate issues
+            alongside software engineers and propose solutions to prevent
+            regressions.
+        </li>
+        <li>
+            <span className="text-2xl">&#8226; </span>Validate and ensure that
+            the fixed version of the application would not affect the other
+            areas that already work properly.
+        </li>
+        <li>
+            <span className="text-2xl">&#8226; </span>Daily monitor number of
+            application usage from different platforms across the globe. Report
+            to team leads if there is any abnormality.
+        </li>
+        <li>
+            <span className="text-2xl">&#8226; </span>Participate in Agile
+            ceremonies, contributing to continuous improvement within an SAFe
+            Agile environment.
         </li>
     </ul>
 );
@@ -67,12 +90,12 @@ const workData = [
         location: "PlutoTV",
         details: plutoDetails,
     },
-    {
-        year: "Apr 2017 - Feb 2022",
-        title: "Table Game Dealer",
-        location: "MGM National Harbor",
-        details: mgmDetails,
-    },
+    // {
+    //     year: "Apr 2017 - Feb 2022",
+    //     title: "Table Game Dealer",
+    //     location: "MGM National Harbor",
+    //     details: mgmDetails,
+    // },
 ];
 const Work = () => {
     return (
